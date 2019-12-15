@@ -1,0 +1,70 @@
+1。首先学习的是@component 注解，它的作用是把当前类对象存入spring容器中。
+   也就是说在service上写一个@component，就会把哪个类反射创建一个对象然后存入spring容器中。
+   但是有个问题，spring容器是一个map结构，有key-value。存这个对象，那么这个对象就是key。可是value是啥呢？
+   它的属性是用于指定bean的id。当我们不写时，它的默认值是当前类名，且首字母改小写。
+   其中最关键的一步是，
+   回想一下昨天的知识点，当我们解析配置文件时就会创建容器并创建对象，但是在beam.xml文件里没有定义对象。
+   因为系统它在解析配置文件时还不知道我们在哪儿写了注解。于是我们就得在利用jar包aop。
+   而且得在beam里添加一个配置，告知Spring在创建容器时要扫描的包，当它在扫描包的时候就会扫描里面的注解。
+   其中配置所需要的标签，不是在beans的约束中，而是一个名称为contexts的名称空间和约束中。接着我们就得导入，导入方式就是在配置环境中复制：
+                <beans xmlns="http://www.springframework.org/schema/beans"
+                       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xmlns:context="http://www.springframework.org/schema/context"
+                       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.springframework.org/schema/context
+                        http://www.springframework.org/schema/context/spring-context.xsd">
+                </beans>
+
+   这时候我们就可以通过<context:component-scan base-package="com.wangxs"></context:component-scan>
+   让Spring扫描com.wangxs下的所有子包所有类上或接口上的注解。回过头来，这时候系统它在解析配置文件时就会知道我们在哪儿写了注解。
+
+   对比xml，注解比较简单，只需要写上注解和标签就可以了。另外如果要指定id，就按照这种写法。@component(value="accountService"),其中这个value名称可以不写，就写双引号内部的。
+
+2。接着介绍  Controller：一般用在表现层
+            Service：一般用在业务层
+            Repository：一般用在持久层
+    以上三个注解他们的作用和属性与Component是一模一样，是Component的子类。他们三个是spring框架为我们提供明确的三层使用的注解，使我们的三层对象更加清晰。
+
+3。接下来第二类注解用来注入数据，
+   Autowired:
+        作用：自动按照类型注入。只要容器中有唯一的一个bean对象类型和要注入的变量类型匹配，就可以注入成功
+             如果ioc容器中没有任何bean的类型和要注入的变量类型匹配，则报错。
+             如果Ioc容器中有多个类型匹配时：只要有一个一样，就算注入成功，如果没有一个一样就报错。这里引入Qualifier注入。
+        出现位置：可以是变量上，也可以是方法上
+        细节：在使用注解注入时，set方法就不是必须的了
+
+   Qualifier:
+        作用：在按照类中注入的基础之上再按照名称注入。它在给类成员注入时不能单独使用。但是在给方法参数注入时可以（稍后我们讲）
+        属性：
+            value：用于指定注入bean的id。
+        缺点：必须搭配Autowired使用，太繁琐啦，所以引入注解Resource
+
+   Resource：
+        作用：直接按照bean的id注入。它可以独立使用
+        属性：
+            name：用于指定bean的id。
+
+   以上三个注入都只能注入其他bean类型的数据，而基本类型和String类型无法使用上述注解实现。该如何注入基本类型和String类型就引出知识点4啦！
+       另外，集合类型的注入只能通过XML来实现。
+
+4。 @Value注解
+        作用：用于注入基本类型和String类型的数据
+        属性：
+             value：用于指定数据的值。它可以使用spring中SpEL(也就是spring的el表达式）
+             SpEL的写法：${表达式}
+             el表达式就是通过${key}取出配置文件中的value，也是键值对的一种取值方式
+
+5。 用于改变作用范围的
+        他们的作用就和在bean标签中使用scope属性实现的功能是一样的
+        Scope
+        作用：用于指定bean的作用范围
+        属性：
+        value：指定范围的取值。常用取值：singleton prototype
+
+6。 和生命周期相关 了解即可
+        他们的作用就和在bean标签中使用init-method和destroy-methode的作用是一样的
+        PreDestroy
+                作用：用于指定销毁方法
+        PostConstruct
+                作用：用于指定初始化方法

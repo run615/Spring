@@ -1,0 +1,21 @@
+这一节主要讲bean对象的细节，一共有两个bean(一个service、一个dao)
+
+bean标签的作用：
+用于把对象的创建交给spring来管理
+
+   spring对bean的管理细节
+         1.创建bean的三种方式
+         2.bean对象的作用范围
+         3.bean对象的生命周期
+
+       <!--创建Bean的三种方式 -->
+       <!-- 第一种方式：使用默认构造函数创建。
+               在spring的配置文件中使用bean标签，配以id和class属性之后，且没有其他属性和标签时。
+               采用的就是默认构造函数创建bean对象，此时如果类中没有默认构造函数，则对象无法创建。
+               这里默认构造函数不能添加任何参数，否则就不叫默认了。
+
+                    在实际开发中，我们有可能会用到别人写好的类，而且可能这些类是写在jar包中的，就会有个问题，jar包中都是字节码文件，我们无法修改。在这种情况下，该如何使用？
+                    比方说，我们用dom4j得到document对象，利用saxreader的方法得到。但是如何在配置文件中得到document对象呢？由于saxreader这个类是写在jar包中，我们无法操作。
+
+       <bean id="accountService" class="com.wangxs.service.impl.AccountServiceImpl"></bean>
+       -->

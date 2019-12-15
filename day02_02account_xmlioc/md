@@ -1,0 +1,8 @@
+通过这个案例我们可以发现：
+queryRunner也需要在beam这个Spring配置文件里注入，
+注入时，数据源可以实现配置，并且把连接数据库的信息注入进来，如果queryRunner是单例对象当面对多个dao使用时有可能出现线程的安全问题。
+
+
+补充：QueryRunner是一个封装了jdbc的一个工具类,执行数据库操作的。
+
+现在service和dao都配到dao的配置文件中，可以使用Spring的ioc来实现。

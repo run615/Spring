@@ -1,0 +1,21 @@
+先导入坐标，
+然后在工厂模式解耦的时候需要有一个配置文件，现在配置文件bean.xml仍然需要存在。
+   所以要创建配置文件，然后导入约束。
+   第三件事就是把对象的创建交给spring来管理。用到的是bean的标签，bean里面配id(唯一标志)，class(反射要获取的全限定名)。
+接着就是要把spring创建好的容器beans取出来，
+打开ui，在Client文件里做一些改变：
+        1。获取spring的Ioc核心容器，并根据id获取对象：
+
+整个过程变得非常简单，和工厂模式几乎一样，只是读取配置文件、创建对象并存入map中的过程全部让Spring干了。
+我们只需要创建配置文件，打开配置信息交给spring，并且获取对象，得到核心容器，再根据id取出对象即可。
+
+
+另外获取核心容器<ApplicationContext>有三个常用实现类：
+ClassPathXmlApplicationContext、FileSystemXmlApplicationContext和AnnotationConfigApplicationContext；
+
+核心容器的两个接口引发出的问题：
+ApplicationContext:     单例对象适用采用此接口，它是一个很智能的接口，它可以先判断对象的单例还是多例来采取延迟还是立即方式加载
+BeanFactory:            多例对象使用
+
+
+那么如何利用ApplicationContext来自己判断是多例还是单例呢？

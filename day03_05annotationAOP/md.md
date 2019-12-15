@@ -1,0 +1,2 @@
+spring基于注解的AOP配置
+首先在bean.xml里配置需要spring要扫描的包

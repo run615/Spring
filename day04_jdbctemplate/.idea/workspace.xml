@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab05862e-9a65-41b0-a32e-4f3bae31daa0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UYM1ACaI3ejClp5A9JqjU9YEKE" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.JdbcTemplateDemo4">
+    <configuration name="JdbcTemplateDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangxs.jdbctemplate.JdbcTemplateDemo1" />
+      <module name="day04_jdbctemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangxs.jdbctemplate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTemplateDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangxs.jdbctemplate.JdbcTemplateDemo2" />
+      <module name="day04_jdbctemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangxs.jdbctemplate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTemplateDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangxs.jdbctemplate.JdbcTemplateDemo3" />
+      <module name="day04_jdbctemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangxs.jdbctemplate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTemplateDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangxs.jdbctemplate.JdbcTemplateDemo4" />
+      <module name="day04_jdbctemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangxs.jdbctemplate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JdbcTemplateDemo4" />
+        <item itemvalue="Application.JdbcTemplateDemo3" />
+        <item itemvalue="Application.JdbcTemplateDemo2" />
+        <item itemvalue="Application.JdbcTemplateDemo1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab05862e-9a65-41b0-a32e-4f3bae31daa0" name="Default Changelist" comment="" />
+      <created>1575528857114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575528857114</updated>
+      <workItem from="1575528860485" duration="4046000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1486" height="258" key="GridCell.Tab.0.bottom" timestamp="1575541360634">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1486" height="258" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1575541360634" />
+    <state width="1486" height="258" key="GridCell.Tab.0.center" timestamp="1575541360633">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1486" height="258" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1575541360633" />
+    <state width="1486" height="258" key="GridCell.Tab.0.left" timestamp="1575541360633">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1486" height="258" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1575541360633" />
+    <state width="1486" height="258" key="GridCell.Tab.0.right" timestamp="1575541360634">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1486" height="258" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1575541360634" />
+    <state x="195" y="208" key="new project wizard" timestamp="1575541358133">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state x="195" y="208" key="new project wizard/0.23.1680.963@0.23.1680.963" timestamp="1575541358133" />
+  </component>
+</project>

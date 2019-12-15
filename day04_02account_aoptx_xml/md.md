@@ -1,0 +1,1 @@
+想要用aop实现事务控制，那肯定要在bean.xml里导入xmlns：aop的约束。

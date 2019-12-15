@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db4b2fe0-b68f-4a8d-ae0c-34331e7ebe7e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UTEnDLNWbrmq8euLQ3Y1cgKpdb" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wangxs.cglib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangxs.cglib.Client" />
+      <module name="day03_02proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangxs.cglib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangxs.proxy.Client" />
+      <module name="day03_02proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangxs.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db4b2fe0-b68f-4a8d-ae0c-34331e7ebe7e" name="Default Changelist" comment="" />
+      <created>1575372349592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575372349592</updated>
+      <workItem from="1575372354183" duration="622000" />
+      <workItem from="1575373005827" duration="4000" />
+      <workItem from="1575373063471" duration="408000" />
+      <workItem from="1575373917168" duration="10672000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="126" key="GridCell.Tab.0.bottom" timestamp="1575453989934">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="126" key="GridCell.Tab.0.bottom/0.0.1680.1050/-1080.0.1080.1920@0.0.1680.1050" timestamp="1575453989934" />
+    <state width="1038" height="264" key="GridCell.Tab.0.bottom/0.23.1680.963/-1080.0.1080.1920@-1080.0.1080.1920" timestamp="1575433735773" />
+    <state width="679" height="245" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1575428022133" />
+    <state width="1638" height="126" key="GridCell.Tab.0.center" timestamp="1575453989932">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="126" key="GridCell.Tab.0.center/0.0.1680.1050/-1080.0.1080.1920@0.0.1680.1050" timestamp="1575453989932" />
+    <state width="1038" height="264" key="GridCell.Tab.0.center/0.23.1680.963/-1080.0.1080.1920@-1080.0.1080.1920" timestamp="1575433735772" />
+    <state width="679" height="245" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1575428022131" />
+    <state width="1638" height="126" key="GridCell.Tab.0.left" timestamp="1575453989931">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="126" key="GridCell.Tab.0.left/0.0.1680.1050/-1080.0.1080.1920@0.0.1680.1050" timestamp="1575453989931" />
+    <state width="1038" height="264" key="GridCell.Tab.0.left/0.23.1680.963/-1080.0.1080.1920@-1080.0.1080.1920" timestamp="1575433735771" />
+    <state width="679" height="245" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1575428022131" />
+    <state width="1638" height="126" key="GridCell.Tab.0.right" timestamp="1575453989933">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="126" key="GridCell.Tab.0.right/0.0.1680.1050/-1080.0.1080.1920@0.0.1680.1050" timestamp="1575453989933" />
+    <state width="1038" height="264" key="GridCell.Tab.0.right/0.23.1680.963/-1080.0.1080.1920@-1080.0.1080.1920" timestamp="1575433735773" />
+    <state width="679" height="245" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1575428022132" />
+    <state x="-1031" y="599" key="SettingsEditor" timestamp="1575433336017">
+      <screen x="-1080" y="0" width="1080" height="1920" />
+    </state>
+    <state x="-1031" y="599" key="SettingsEditor/0.23.1680.963/-1080.0.1080.1920@-1080.0.1080.1920" timestamp="1575433336016" />
+    <state x="374" y="137" key="new project wizard" timestamp="1575384100244">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state x="374" y="137" key="new project wizard/0.23.1680.963@0.23.1680.963" timestamp="1575384100244" />
+  </component>
+</project>
